@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ariel Caula</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ariel Caula</div>
+            <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Bem-vindo ao meu Portfolio</h1>
+            <p>Desenvolvedor apaixonado por criar soluções inovadoras e eficientes.</p>
+            <a href="#projects" class="btn">Ver Projetos</a>
+        </section>
+        <section id="about">
+            <img src="fotoariel.png" alt="Foto de Ariel Caula">
+            <div>
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor full-stack com experiência em tecnologias web modernas. Apaixonado por resolver problemas complexos e criar interfaces intuitivas. Sempre buscando aprender e aplicar as melhores práticas no desenvolvimento de software.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Markup semântico e acessível</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Design responsivo e moderno</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e lógica dinâmica</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Componentes reutilizáveis</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <p>Desenvolvimento backend</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Scripts e automação</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="projects-grid" id="projectsGrid" aria-live="polite">
+                <!-- Os cards serão adicionados via JavaScript -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Entre em Contato</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:arielcauladev@gmail.com">arielcauladev@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+5585997074868">+55 85 9 9707-4868</a></p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Ariel Caula. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="https://github.com/ariellhc" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ariel-herculano-091588367" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="main.js" defer></script>
+</body>
+</html>
