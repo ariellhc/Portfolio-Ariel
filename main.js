@@ -4,7 +4,7 @@ const projects = [
         short: 'Site comercial de vendas Ativo e funcional.',
         details: 'Construído com HTML, CSS, JavaScript e node.js. Inclui calculo de frete para delivery e finalização de pedido via whatszap.',
         technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js'],
-        image: 'https://manobrownie.infinityfree.me/?i=1',
+        image: 'imagem/manobrownie.png',
         liveUrl: 'https://manobrownie.infinityfree.me/?i=1',
         repoUrl: 'https://github.com/ariellhc/Mano-Brownie.git'
     }
