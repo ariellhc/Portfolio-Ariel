@@ -1,30 +1,12 @@
 const projects = [
     {
-        title: 'Dashboard Analytics',
-        short: 'Painel moderno com gráficos e filtros interativos.',
-        details: 'Construído com HTML, CSS, JavaScript e Chart.js. Inclui autenticação simulada e filtros dinâmicos para análise de dados em tempo real.',
-        technologies: ['HTML', 'CSS', 'JavaScript', 'Chart.js'],
-        image: 'https://via.placeholder.com/300x200?text=Analytics',
-        liveUrl: '#',
-        repoUrl: 'https://github.com/ariellhc'
-    },
-    {
-        title: 'App de Tarefas',
-        short: 'Aplicativo para gerenciar tarefas com persistência local.',
-        details: 'Implementado com React e localStorage para sincronização automática. Inclui categorias, arrastar e soltar, e filtros por status.',
-        technologies: ['React', 'JavaScript', 'CSS'],
-        image: 'https://via.placeholder.com/300x200?text=ToDo+App',
-        liveUrl: '#',
-        repoUrl: 'https://github.com/ariellhc'
-    },
-    {
-        title: 'API de Blog',
-        short: 'Backend RESTful para gerenciamento de posts e usuários.',
-        details: 'API desenvolvida com Node.js e Express. Documentação via Swagger e testes automatizados com Jest.',
-        technologies: ['Node.js', 'Express', 'MongoDB', 'Jest'],
-        image: 'https://via.placeholder.com/300x200?text=API+Blog',
-        liveUrl: '#',
-        repoUrl: 'https://github.com/ariellhc'
+        title: 'E-Commerce - Mano Brownie',
+        short: 'Site comercial de vendas Ativo e funcional.',
+        details: 'Construído com HTML, CSS, JavaScript e node.js. Inclui calculo de frete para delivery e finalização de pedido via whatszap.',
+        technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js'],
+        image: 'https://manobrownie.infinityfree.me/?i=1',
+        liveUrl: 'https://manobrownie.infinityfree.me/?i=1',
+        repoUrl: 'https://github.com/ariellhc/Mano-Brownie.git'
     }
 ];
 
